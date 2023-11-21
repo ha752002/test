@@ -1,119 +1,113 @@
- {
+* {
   overflow: hidden;
 }
+.sidebarlist .sidebarlist-item {
+  padding: 19px 0px 19px 16px;
+  border-bottom: 1px solid gray;
+}
 
-/* sidebar /
-  .sidebarlist .sidebarlist-item {
-    padding: 19px 0px 19px 16px;
-    border-bottom: 1px solid gray;
-  }
-  
-  .sidebarlist-item:hover {
-    background: gray;
-  }
-  
-  .sidebarlist .sidebarlist-item a {
-    color: #ffffffc2;
-    font-size: 1.7rem;
-  }
-  
-  .gridcolumn-1-5.sidebar {
-    margin-left: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-    background: rgb(16, 16, 16);
-  }
-  
-  .sidebar_inner {
-    margin-right: 40px;
-    height: 100vh;
-  }
-  
-  / End siderbar /
-  
-  / container-wrapper /
-  .container main {
-    padding: 0 0 68px 0px;
-  }
-  
-  .container-wrapper {
-    width: 66%;
-    margin: 0 auto;
-  }
-  
-  .container .logo {
-    padding: 20px 0 30px 0;
-    text-align: center;
-  }
-  
-  .container-about {
-    padding-top: 10px;
-    padding-bottom: 2px;
-    background: #cdcdcd5c;
-  }
-  
-  .container-aboutwrapper {
-    width: 73%;
-    margin: 10px auto 50px auto;
-    text-align: center;
-  }
-  
-  .container-about h2 {
-    font-size: 2.2rem;
-    line-height: 1.2;
-  }
-  
-  .container-about p {
-    font-size: 2rem;
-    line-height: 1.2;
-  }
-  
-  .container-group {
-    margin: 41px 0;
-  }
-  
-  .content-itemimg {
-    float: left;
-    width: 124px;
-    margin-right: 25px;
-  }
-  
-  .content-itemimg::after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-  
-  .content-itemtitle {
-    margin: 10px 0;
-    font-size: 2.5rem;
-    line-height: 2.6rem;
-  }
-  
-  .content-group {
-    margin-top: 19px;
-  }
-  
-  .content-group > p {
-    font-size: 1.7rem;
-    line-height: 2.3rem;
-  }
-  
-  footer > p {
-    font-size: 1.5rem;
-    color: #808080eb;
-  }
-  
-  .logo {
-    margin-top: 20px;
-    text-align: center;
-  }
-  
-  .logo img {
-    width: 310px;
-    padding-bottom: 20px;
-  }
-  /End container-wrapper */
+.sidebarlist-item:hover {
+  background: gray;
+}
+
+.sidebarlist .sidebarlist-item a {
+  color: #ffffffc2;
+  font-size: 1.7rem;
+}
+
+.gridcolumn-1-5.sidebar {
+  margin-left: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background: rgb(16, 16, 16);
+}
+
+.sidebar_inner {
+  margin-right: 40px;
+  height: 100vh;
+}
+
+.container main {
+  padding: 0 0 68px 0px;
+}
+
+.container-wrapper {
+  width: 66%;
+  margin: 0 auto;
+}
+
+.container .logo {
+  padding: 20px 0 30px 0;
+  text-align: center;
+}
+
+.container-about {
+  padding-top: 10px;
+  padding-bottom: 2px;
+  background: #cdcdcd5c;
+}
+
+.container-aboutwrapper {
+  width: 73%;
+  margin: 10px auto 50px auto;
+  text-align: center;
+}
+
+.container-about h2 {
+  font-size: 2.2rem;
+  line-height: 1.2;
+}
+
+.container-about p {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.container-group {
+  margin: 41px 0;
+}
+
+.content-itemimg {
+  float: left;
+  width: 124px;
+  margin-right: 25px;
+}
+
+.content-itemimg::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.content-itemtitle {
+  margin: 10px 0;
+  font-size: 2.5rem;
+  line-height: 2.6rem;
+}
+
+.content-group {
+  margin-top: 19px;
+}
+
+.content-group > p {
+  font-size: 1.7rem;
+  line-height: 2.3rem;
+}
+
+footer > p {
+  font-size: 1.5rem;
+  color: #808080eb;
+}
+
+.logo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.logo img {
+  width: 310px;
+  padding-bottom: 20px;
+}
 
 .btn-show,
 .btn-hide {
