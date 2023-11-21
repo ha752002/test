@@ -19,8 +19,10 @@
   </head>
   <body>
     <div class="container">
+      <input type="checkbox" id="menu-toggle" hidden />
+      <div class="overlay" for="menu-toggle"></div>
       <aside class="sidebar">
-        <div class="sidebar">
+        <nav>
           <ul class="sidebar__list">
             <li class="sidebar__list-item"><a href="#">Home</a></li>
             <li class="sidebar__list-item"><a href="#">Services</a></li>
@@ -28,11 +30,14 @@
             <li class="sidebar__list-item"><a href="#">Blog</a></li>
             <li class="sidebar__list-item"><a href="#">Contact</a></li>
           </ul>
-        </div>
+        </nav>
       </aside>
       <!-- End sidebar-->
 
       <div class="content-container">
+        <div class="menu-toggle">
+          <label for="menu-toggle"> <i class="fa-solid fa-bars"></i></label>
+        </div>
         <header class="header">
           <h1>
             <a href="index.html">

@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+
 * {
   padding: 0;
   margin: 0;
@@ -221,6 +223,58 @@ header h1 {
 
 /* End footer */
 
+/* menu-toggle */
+.menu-toggle label i {
+  font-size: 2rem;
+  margin: 33px;
+}
+
+.menu-toggle label {
+  float: right;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+/*End menu-toggle */
+
+@media screen and (max-width: 991px) {
+  .sidebar {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    translate: -100%;
+    transition: translate 0.4s ease;
+    -webkit-transition: translate 0.4s ease;
+    -moz-transition: translate 0.4s ease;
+    -ms-transition: translate 0.4s ease;
+    -o-transition: translate 0.4s ease;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+  .container {
+    flex-direction: column;
+  }
+
+  .container .content-container {
+    width: 100%;
+  }
+
+  .container input[type="checkbox"]:checked ~ .sidebar {
+    translate: 0;
+  }
+
+  .product-item {
+    width: calc((100% - (2 * var(--main-gap))) / 2);
+  }
+}
+
 @media screen and (max-width: 767px) {
   .container {
     flex-direction: column;
@@ -228,5 +282,9 @@ header h1 {
 
   .container .content-container {
     width: 100%;
+  }
+
+  .product-item {
+    width: calc((100% - (2 * var(--main-gap))) / 1);
   }
 }
