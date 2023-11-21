@@ -1,0 +1,32 @@
+/*custom grid css */
+.grid {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.grid__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.grid__column-4 {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 33.3334%;
+}
+
+.grid__column-1-5 {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 12.5%;
+}
+
+.grid__column-10-5 {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 87.5%;
+}
+/*End custom grid css */
